@@ -1,0 +1,20 @@
+.hero {
+    background-image: url('your-image-url');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+  }
+  
+  .learn-more {
+    background-color: #a1e79d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

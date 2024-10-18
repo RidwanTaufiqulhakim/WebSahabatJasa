@@ -1,3 +1,6 @@
+
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,6 +27,7 @@
   font-weight: bold;
   color: black;
   margin: 0;
+  margin-left: 10px;
 }
 
 /* Navigation Links */
@@ -44,7 +48,14 @@
   color: black;
 }
 
+.auth-buttons {
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+
 /* Authentication buttons */
 .auth-buttons button {
   margin-left: 20px;
+  
 }

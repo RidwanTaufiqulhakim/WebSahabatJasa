@@ -1,25 +1,50 @@
-
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #a1e79d;
-    padding: 10px 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CAFF93;
+  padding: 10px 20px;
+}
+
+/* Logo and text container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.logo {
+  height: 50px;  /* Adjust as needed */
+  margin-right: 10px;  /* Space between logo and text */
+}
+
+/* Sahabat Jasa text */
+.sahabat {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: large;
+  font-weight: bold;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0;
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .auth-buttons button {
-    margin-left: 10px;
-  }
-  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Authentication buttons */
+.auth-buttons button {
+  margin-left: 20px;
+}

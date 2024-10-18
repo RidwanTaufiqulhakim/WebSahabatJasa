@@ -1,16 +1,13 @@
 import React from 'react';
 import './Navbar.css';
-import logo from "./assets/logoSahabatJasa.png"
-
+import logo from "./assets/logoSahabatJasa.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">
-        <div className="logoGambar">
-            <img src={logo} alt="" />
-            <h1>Sahabat Jasa</h1>
-        </div>
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo"/>
+        <h1 className="sahabat">Sahabat Jasa</h1>
       </div>
       <ul className="nav-links">
         <li><a href="#home">Home</a></li>

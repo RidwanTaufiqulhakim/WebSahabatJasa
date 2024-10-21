@@ -26,7 +26,7 @@
   font-size: 1.5em;
   font-weight: bold;
   color: black;
-  margin: 0;
+  margin: 10px;
   margin-left: 10px;
 }
 
@@ -61,6 +61,7 @@
   font-size: 1rem;
   border-radius: 5px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .auth-buttons {
@@ -70,7 +71,7 @@
   
 }
 
-
+/* tombol masuk */
 .login-btn {
   background-color: transparent;
   border: 2px solid black;

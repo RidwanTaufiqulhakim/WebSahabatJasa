@@ -6,6 +6,7 @@
     padding: 100px 0;
     text-align: center;
     color: white;
+    
   }
   
   .hero h1 {
@@ -19,4 +20,6 @@
     cursor: pointer;
     margin-top: 10px;
   }
+
+
   

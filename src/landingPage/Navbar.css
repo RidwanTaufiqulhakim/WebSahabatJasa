@@ -35,7 +35,7 @@
   list-style: none;
   display: flex;
   gap: 35px;
-  font-size: large;
+  font-size: larger;
   font-weight: bold;
   flex-grow: 1;
   justify-content: center;

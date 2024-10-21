@@ -10,7 +10,7 @@ const Navbar = () => {
         <h1 className="sahabat">Sahabat Jasa</h1>
       </div>
       <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Beranda</a></li>
         <li><a href="#layanan">Layanan</a></li>
       </ul>
       <div className="auth-buttons">

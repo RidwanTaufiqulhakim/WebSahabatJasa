@@ -1,5 +1,6 @@
+
 .hero {
-    background-image: url('your-image-url');
+    background-image: url('assets/Rectangle 3.png');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -16,5 +17,6 @@
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin-top: 10px;
   }
   

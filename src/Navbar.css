@@ -34,12 +34,12 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 35px;
   font-size: large;
   font-weight: bold;
   flex-grow: 1;
   justify-content: center;
-  margin: 0;
+  margin-right: auto;
   
 }
 
@@ -47,6 +47,7 @@
   text-decoration: none;
   color: black;
 }
+
 
 .auth-buttons {
   padding-left: 10px;
@@ -57,5 +58,43 @@
 /* Authentication buttons */
 .auth-buttons button {
   margin-left: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.auth-buttons {
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
   
 }
+
+
+.login-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.login-btn:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.register-btn {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+
+}
+
+.register-btn:hover {
+  background-color: #CAFF93 ;
+  color: black;
+}
+
+
+
+

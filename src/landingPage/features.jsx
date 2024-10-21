@@ -4,8 +4,8 @@ import './Features.css';
 const Features = () => {
   return (
     <section className="features">
-        <div className='h2'>
-        <h2>Keunggulan Sahabat Jasa</h2>
+        <div className='h1'>
+        <h1>Keunggulan Sahabat Jasa</h1>
         </div>
 
       <div className="feature-item">

@@ -22,11 +22,11 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="keunggulan-item">
+      <div className="keunggulan-item1">
         <div className="image-container">
           <img src={Mbak2} alt="Worker 2" />
         </div>
-        <div className="text-container">
+        <div className="text-container2">
           <h2>Cepat</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

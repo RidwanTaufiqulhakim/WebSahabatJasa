@@ -1,0 +1,40 @@
+.app{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .header{
+    background-color: #9CCC65;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .categories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .category-card{
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .category-card:hover{
+    transform: scale(1.05);
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  

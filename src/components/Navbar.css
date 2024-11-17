@@ -1,0 +1,102 @@
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CAFF93;
+    padding: 10px 20px;
+  }
+  
+  /* Logo and text container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo image */
+  .logo {
+    height: 50px;  /* Adjust as needed */
+    margin-right: 10px;  /* Space between logo and text */
+  }
+  
+  /* Sahabat Jasa text */
+  .sahabat {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: larger;
+    font-weight: bold;
+    flex-grow: 1;
+    justify-content: center;
+    margin-right: auto;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .auth-buttons {
+    padding-left: 10px;
+    margin-left: 20px;
+  }
+  
+  
+  /* Authentication buttons */
+  .auth-buttons button {
+    margin-left: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  
+  /* tombol masuk */
+  .login-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+  }
+  
+  .login-btn:hover {
+    background-color: black;
+    color: white;
+  
+  }
+  
+  .register-btn {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+  
+  }
+  
+  .register-btn:hover {
+    background-color: #CAFF93 ;
+    color: black;
+  }
+  
+  
+  
+  
+  

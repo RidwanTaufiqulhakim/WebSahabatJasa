@@ -1,19 +1,18 @@
 import { useState } from 'react'
 
-import Navbar from './landingPage/navbar'
-import Hero from './landingPage/hero'
-import Features from './landingPage/features'
+import Navbar from './components/Navbar';
+import Hero from './components/hero';
+import Features from './components/Feature';
 
 
 function App() {
-
   return (
     <>
       <Navbar />
       <Hero />
       <Features />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
